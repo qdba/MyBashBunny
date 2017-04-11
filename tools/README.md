@@ -14,6 +14,6 @@ If you want manually check the installation, ssh to your bunny,
 ### The packages were installed there....
 ls -al /tools
 
-### A List of all istalled packages
+### A List of all installed packages
 dpkg -l         
 
