@@ -1,0 +1,15 @@
+# Test payload
+LED SETUP
+START_DEBUG
+ATTACKMODE RNDIS_ETHERNET STORAGE
+LED ATTACK
+
+LOG "Vor dem Sleep"
+
+sleep 10
+
+LOG "Nach dem Sleep"
+
+STOP_DEBUG
+LED FINISH
+
