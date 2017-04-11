@@ -1,4 +1,4 @@
-## Packaged tools for the Bash Bunny Firmware 1.1
+# Packaged tools for the Bash Bunny Firmware 1.1
 
 ## How to Install
 1. Download the desired *.deb file and put it into the /tools folder of your Bash Bunny Flash drive.
@@ -11,6 +11,9 @@ Remember, that after installion the /tools folder of your Bash Bunny Flashdrive 
 
 If you want manually check the installation, ssh to your bunny,
 
-*ls -al /tools*   # The packages were installed there
-*dpkg -l*         # a List of all istalled packages
+### The packages were installed there....
+ls -al /tools
+
+### A List of all istalled packages
+dpkg -l         
 
