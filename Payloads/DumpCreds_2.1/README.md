@@ -1,11 +1,11 @@
-# DumpCreds 2.1
+# DumpCreds 2.2
 * Author: QDBA
-* Version: Version 2.1.0 Build 1004
+* Version: Version 2.2.0 Build 1005
 * Target: Windows 10
 
 ## Description
 
-** !!!!! works only at Bash Bunny with FW 1.1 !!!!! **
+** !!!!! works only at Bash Bunny with FW 1.1+ !!!!! **
 
 Dumps the usernames & plaintext passwords from 
  * Browsers (Crome, IE, FireFox)
@@ -36,6 +36,8 @@ None needed.
 
 ## Requirements
 
+impacket must be installed
+https://github.com/qdba/MyBashBunny/tree/master/tools
 
 ## Download
 
@@ -45,29 +47,7 @@ https://github.com/qdba/bashbunny-payloads/tree/master/payloads/library/DumpCred
 
 ## Install
 
-1. Put Bash Bunny in arming mode
-
-2. Coppy All Folders into the root of Bunny Flash Drive 
-	Mandatory 
-		* payloads/library/DumpCreds_2.1 --> the payload Files
-		  * payloads/library/DumpCreds_2.1/PS --> the Powershell scripts for the payload
-		* tools --> impacket tools (provide the smbserver.py) (not neccessary if you had already installed)
-	Not neccessary
-		* docs --> this doc file
-		* languages --> languauge files for DUCKY_LANG
-				
-3. eject Bash Bunny safely!!
-
-4. Insert Bash Bunny in arming mode ( Impacket and languages will be installed ) 		
-
-5. Put all Files and Folders to payload from payloads /payloads/library/DumpCreds_2.1 to payloads/switch1 or payloads/switch2
-
-6. eject Bash Bunny safely 
-
-7. move switch in right position
-
-8. plugin Bash Bunny and have fun....! :-)
-
+copy all files and folders to your favorite payloads switch folder
 
 ## STATUS
 
@@ -79,7 +59,6 @@ https://github.com/qdba/bashbunny-payloads/tree/master/payloads/library/DumpCred
 | Yellow single blink     | Initialization                               |
 | Yellow double blink     | HID Stage                                    |
 | Yellow triple blink     | Wait for IP coming up                        |
-| Yellow quad blink       | Wait for Handshake (SMBServer Coming up)     |
 | Yellow very fast blink  | Powershell scripts running                   |
 | White fast blink        | Cleanup, copy Files to <root>/loot           |
 | Green              	  | Finished                                     |
