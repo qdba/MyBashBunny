@@ -6,9 +6,8 @@
 EncDecFiles.ps1 is a powershell script to Encrypt / Decrypt a powershell (or any other) file with AES. 
 You can use it to obfuscate your powershell script, so AV Scanner doesn't detect it.
 
-### Usage:
-* 
-* EncDecFiles.ps1  
+* Usage: 
+*        EncDecFiles.ps1  
 *                         < -Encrypt | -Decrypt >      # encrypt or decrypt a file
 *                         < -In Filename >             # Input File
 *                         [ -Out Filename ]            # Output File
@@ -36,5 +35,17 @@ You can use it to obfuscate your powershell script, so AV Scanner doesn't detect
 In the Script "Run_Script_Example.ps1" you see an example how to load and execute the encrypted Script.
 Load the encrypted script to a variable. Than execute the function Run with the variable and a password 
 
+# Download
+
+https://github.com/qdba/MyBashBunny/tree/master/Other/EncDecFiles
+
+# Discussion
+
+https://forums.hak5.org/index.php?/topic/40843-obfuscating-powershell-scripts/
 
 
+# Files
+- EncDecFiles.ps1			-------- Encrypter / Decrypter Script
+- Run_Script_Example.ps1	-------- Example Hot to run a encrypted script
+- Testscript.ps1			-------- A Test powershell script not encrypted
+- Testscript.enc			-------- The encrypted Test powershell script
