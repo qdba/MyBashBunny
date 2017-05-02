@@ -44,7 +44,7 @@ LED STAGE1
 ATTACKMODE HID
 
 # Change Language if needed
-DUCKY_LANG de
+# DUCKY_LANG de
 
 Q DELAY 1000
 
