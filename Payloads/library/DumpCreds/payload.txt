@@ -2,8 +2,8 @@
 #
 # Title:         DumpCreds 2.3
 # Author:        QDBA
-# Version:       2.3.1
-# Build: 		 10012
+# Version:       2.3.4
+# Build: 		 10014
 # Category:      Exfiltration
 # Target:        Windows Windows 10 (Powershell)
 # Attackmodes:   HID, Ethernet
